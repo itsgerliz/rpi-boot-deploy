@@ -6,7 +6,7 @@ Raspberry Pi boot assets deployer script
 > The script can be installed wherever you want, anyways, `/usr/local/sbin` is recommended
 
 > [!TIP]
-> A premade apt hook is provided so this script executes automatically on each `apt upgrade`
+> An example apt hook is provided so this script executes automatically on each `apt upgrade`
 
 This script essentially checks if the existing kernel and initrd in the Raspberry Pi  
 bootloader directory are different from the provided ones, in such case it copies them
